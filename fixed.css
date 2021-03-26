@@ -1,0 +1,652 @@
+@media screen and (max-width: 1000px) {
+	.feature_start {
+		font-size: 30px;
+	}  
+
+	.say_three_times {
+		max-width: 320px; 
+		
+		display: flex; 
+		flex-direction: column;
+		margin: 0 auto;
+
+	} 
+
+	#say_once1 {  
+		display: block;
+		width: 300px;
+		padding: 0px 0px 0px 30px;
+	} 
+
+	#say_once2 {  
+		width: 280px;
+		padding: 30px 0px 0px 0px; 
+		
+	} 
+
+	#say_once3 {  
+
+		display: block;
+		width: 280px;
+		
+		padding: 30px 0px 20px 0px;
+	} 
+
+	.stylesheet #up_text2 {
+		font-size: 14px;
+	}
+	.stylesheet #down_text2 {
+		font-size: 12px;
+	} 
+	.stylesheet h1 {
+		font-size: 30px;
+	} 
+	.style_block {
+		width: 300px; 
+		margin: 0 auto;
+	}  
+
+	.contact_start {
+		width: 400px;
+	}
+	.form_block {
+		display: flex; 
+		flex-direction: column; 
+		width: 580px; 
+		margin: 0 auto;
+	} 
+
+	.messag_end { 
+		margin: 0 auto;
+		margin-top: 100px; 
+		width: 300px; 
+
+	} 
+
+	#end_form {
+		width: 300px; 
+		height: 150px; 
+		margin: 0 auto;
+	} 
+
+	#end_form input {
+		margin: 0 auto; 
+		margin-left: -150px; 
+		padding: 15px 350px 15px 15px;
+	} 
+
+	.footer {
+		width: 300px; 
+		margin: 0 auto;
+	}
+
+} 
+
+@media screen and (max-width: 600px) {
+	.feature_start {
+		font-size: 20px; 
+	} 
+	.say_start {
+		width: 300px;
+	} 
+
+	#end_form {
+		width: 300px; 
+		margin: 0 auto;
+	} 
+
+	#end_form input {
+		padding: 15px 100px 15px 15px; 
+		margin: 0 auto; 
+		text-align: center;
+	} 
+	.form_block {
+		width: 320px;
+	} 
+
+	.contact_start h1 {
+		font-size: 30px;
+	} 
+	.contact_start {
+		width: 310px; 
+		margin: 0 auto;
+	}
+
+} 
+
+/*адаптив первого блока если ширина меньше 1100 пикселей*/ 
+
+@media screen and (max-width: 1100px) {
+	.features_flexbox {
+		display: flex; 
+		flex-direction: column;
+	} 
+
+	
+	/*регистрационное окно*/
+	.feature_register {
+		margin: 0 auto; 
+		margin-top: 40px; 
+		width: 500px;
+	} 
+	.feature_register button {
+		width: 500px; 
+		padding: 20px 0;
+	} 
+	.feature_register input {
+		width: 400px; 
+		height: 40px;
+	}
+	/*коректировка высоты блока*/
+	.features_block {
+		height: 1000px;
+	}
+
+	/*коректировка текста*/
+	.feature_text {
+		text-align: center; 
+		margin: 0 auto; 
+		width: 450px;
+	} 
+	/*коректировка верхнего текста*/
+	.feature_text #up_text {
+		font-size: 20px;
+	} 
+	/*корректировка нижнего текста*/
+	.feature_text #down_text {
+		font-size: 14px;
+	} 
+	/*полоска social media*/
+	.social_media {
+		display: flex; 
+		flex-direction: column; 
+		width: 700px; 
+		margin: 0 auto;
+	}  
+	/*текст полоски*/
+	.text_social {
+		margin: 0 auto;
+		text-align: center;
+	}  
+	/*картинка полоска с соц сетями*/
+	.img_social {
+		margin: 0 auto;
+	} 
+
+
+	
+}   
+
+@media screen and (max-width: 1180px) {
+	.tab {
+		display: flex; 
+		flex-direction: column;
+		width: 700px; 
+		padding: 145px 0 115px 0;
+	}  
+	.colum_1 {
+		margin: 0 auto; 
+		display: flex; 
+		flex-direction: column;
+	}
+
+	.tab_botton {
+		display: inline; 
+		margin: 0 auto; 
+		padding: 0;
+		padding-bottom: 50px; 
+
+	}
+
+	.tab_text { 
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+		 
+	} 
+	.tab_img {
+		padding: 40px 0 0 0; 
+		margin: 0 auto; 
+
+	} 
+	.tab_img img {
+		width: 420px; 
+		height: 300px;
+	} 
+	.subList_flex {
+		display: flex; 
+		flex-direction: column; 
+		width: 700px;
+	} 
+
+	.subList_text {
+		margin: 0 auto;  
+		font-size: 16px; 
+		width: 600px;
+	} 
+
+	.subList2_flex {
+		display: flex; 
+		flex-direction: column; 
+		width: 700px;
+	} 
+
+	.subList_text2 {
+		margin: 0 auto; 
+		font-size: 16px; 
+		width: 600px; 
+		margin-top: 100px;
+	}  
+	.about_text {
+		display: flex; 
+		flex-direction: column; 
+		width: 700px;
+	}
+	.once_text {
+		margin: 25px 0;
+	} 
+	.price_block {
+		display: flex; 
+		flex-direction: column; 
+		width: 500px 
+	}
+
+	.once_price {
+		margin: 0 auto; 
+		margin-bottom: 380px; 
+		width: 420px;
+	}  
+
+	.once_price .name_price {
+		padding: 15px 188px;
+	} 
+
+	#once_price2 .name_price {
+		padding: 15px 150px;
+	} 
+
+	#once_price3 .name_price {
+		padding: 15px 170px;
+	} 
+
+	#once_price1 {
+		margin-top: 80px;
+	}
+
+	.animka {
+		padding: 5px 189px;
+	} 
+
+	.animka:hover {
+		padding: 20px 137.7px 0 136px; 
+	}
+	.price {
+		height: 2200px;
+	} 
+
+	.say_three_times {
+		 
+		width: 900px; 
+
+	} 
+	#say_once1 {
+		margin: 0px 30px 0px 0px;
+	} 
+
+	#say_once2 {
+		margin: 0px 30px;
+	} 
+
+	#say_once3 {
+		margin: 0px 0px 0px 30px;
+	} 
+	
+
+}
+
+@media screen and (max-width: 700px) { 
+	/*при экране меньше 700 пикселей  полоска с соц сетями не отображается*/
+	.social_media {
+		display: none;
+	} 
+	/*технический блок контейнера tab*/
+	.tab {
+		display: flex; 
+		flex-direction: column;
+		width: 320px; 
+		padding: 85px 0 65px 0;
+	}  
+
+	/*первая колона*/
+	.colum_1 {
+		margin: 0 auto; 
+		display: flex; 
+		flex-direction: column;
+	}
+	/*кнопки и их расположение*/
+	.tab_botton {
+
+		display: inline; 
+		margin: 0 auto; 
+		padding: 0;
+		padding-bottom: 50px; 
+
+	} 
+	/*размеры кнопок*/
+	.tab_botton button {
+		width: 100px; 
+		height: 100px;
+	}
+	/*контейнер с текстом*/
+	.tab_text { 
+		padding: 0;
+		margin: 0 auto;
+		text-align: center; 
+		width: 300px;
+		 
+	}  
+	/*контейнер с картинкой*/
+	.tab_img {
+		padding: 40px 0 0 0; 
+		margin: 0 auto; 
+
+	}  
+	/*сама картинка*/
+	.tab_img img {
+		width: 310px; 
+		height: auto;
+	}  
+
+	.subList_flex {
+		display: flex; 
+		flex-direction: column; 
+		width: 320px;
+	}
+	.subList_text {
+		margin: 0 auto; 
+		font-size: 16px; 
+		width: 300px; 
+
+	}  
+	.subList_img .box {
+		width: 300px; 
+		height: 250px;
+	} 
+	.subList .inBox { 
+		margin: 0 auto; 
+		margin-top: 15px; 
+		width: 300px; 
+		height: 200px; 
+		background-color: #9a9a9a; 
+		box-shadow: 10px 10px 20px 20px rgba(221, 221, 221, 1);
+	} 
+
+	.box_text {
+		font-size: 22px; 
+		padding-top: 80px; 
+	} 
+	.subList2_flex {
+		display: flex; 
+		flex-direction: column; 
+		width: 320px;
+	} 
+
+	.subList_text2 {
+		margin: 0 auto; 
+		font-size: 16px; 
+		width: 300px; 
+		margin-top: 50px;
+	} 
+	.subList_img2 .box2 {
+		width: 300px; 
+		height: 250px;
+	} 
+	.subList_img2 .inBox2 {
+		margin: 0 auto; 
+		margin-top: 15px; 
+		width: 300px; 
+		height: 200px; 
+		background-color: #9a9a9a; 
+		box-shadow: 10px 10px 20px 20px rgba(221, 221, 221, 1);
+	} 
+	.box_text2 {
+		font-size: 22px; 
+		padding-top: 80px;
+	} 
+	.about_text {
+		width: 300px;
+	} 
+	.once_text {
+		width: 300px;
+	} 
+	.about_start h1 {
+		font-size: 20px;
+	} 
+	.about_start p {
+		font-size: 12px;
+	} 
+	.about_start {
+		width: 300px;
+	}
+
+}
+
+@media screen and (max-width: 520px) { 
+	/*текст при экране меньше 520 пикселей*/
+	.feature_text {
+		width: 320px;
+	}  
+	/*верхний текст 1 блока*/
+	.feature_text #up_text {
+		padding: 20px 0 20px 0;
+	}  
+	/*нижний текст первого блока*/
+	.feature_text #down_text {
+		padding: 20px 0 20px 0;
+	} 
+	/*кнопка установки*/
+	.feature_text button {
+		margin-top: 25px;
+	}  
+	/*окно регистрации*/
+	.feature_register {
+		width: 310px;
+	} 
+	/*кнопка для регистрации*/
+	.feature_register button {
+		width: 310px; 
+		padding: 15px 0 15px 0;
+	} 
+	/*поля для ввода*/
+	.feature_register input {
+		width: 280px; 
+		height: 30px;
+	} 
+
+	.price_block {
+		display: flex; 
+		flex-direction: column; 
+		width: 320px;
+	} 
+	.price_start {
+		width: 300px; 
+		padding: 0 auto; 
+		margin: 0 auto; 
+		margin-top: 100px;
+	} 
+
+	.price_start h1 {
+		font-size: 30px;
+	} 
+
+	.once_price {
+		width: 300px;  
+		margin: 0 auto;
+		margin: 320px 10px 0 10px;
+	} 
+
+	.cent {
+		font-size: 30px;
+	} 
+
+	.number {
+		font-size: 80px;
+	} 
+
+	#once_price1 .name_price {
+		padding: 15px 126px;
+	} 
+
+	#once_price2 .name_price {
+		padding: 15px 100px;
+	} 
+	#once_price3 .name_price {
+		padding: 15px 105px;
+	} 
+
+	.animka {
+		padding: 5px 130px 5px 128px;
+	} 
+
+	.animka:hover {
+		padding: 20px 77.5px 0 76px;
+	}
+}
+
+@media screen and (min-width: 1900px) { 
+	/*блок с регистрацией когда моник больше 1900пикселей*/
+	.feature_text {
+		width: 900px; 
+		padding: 40px; 
+	} 
+ 	/*размер верхнего текста*/
+	.feature_text #up_text {
+		font-size: 30px;
+	} 
+	/*размер нижнего текста*/
+	.feature_text #down_text {
+		font-size: 20px;
+	} 
+	/*кнопка скачать*/
+	.feature_text button {
+		border: 4px solid #fff; 
+		font-size: 20px; 
+		padding: 18px 40px; 
+		margin-top: 60px;
+	}
+	/*размеры блока с регистрацией*/
+	.countaner_features {
+		max-width: 1700px; 
+	} 
+	/*размеры окна с регистрацией*/
+	.feature_register {
+		width: 500px; 
+		height: 500px;
+	} 
+	/*текст заголовок окна регистрации*/
+	.feature_register p { 
+		text-align: center;
+	} 
+	/*кнопка регистрации*/
+	.feature_register button {
+		width: 500px; 
+		padding: 20px 0;
+	} 
+	/*поля для ввода*/
+	.feature_register input {
+		width: 440px; 
+		height: 40px;
+	} 
+ 	/*размер полоски social media*/
+	.social_media {
+		width: 1700px;
+	} 
+	/*блок с текстом*/
+	.text_social {
+		width: 500px; 
+		padding: 45px 0 20px 0; 
+		margin-right: 550px;
+	} 
+	/*зоголовок блока с текстом*/
+	.text_social h2 {
+		font-size: 32px;
+	} 
+	/*сам текст*/
+	.text_social p {
+		font-size: 18px;
+	} 
+	/*картинка полоска с соц сетями*/
+	.img_social {
+		margin: 60px 0 55px 0;
+	} 
+	/*технический блок контейнера tab*/
+	.tab {
+		display: flex; 
+		flex-direction: row; 
+		width: 1500px; 
+		margin: 0 auto; 
+		padding: 145px 0 115px 0;
+	}  
+	/*размер заголовка*/
+	.tab_text h1 {
+		font-size: 30px;
+		padding: 0 0 40px 0;
+	}
+	/*размер текста*/
+	.tab_text p {
+		font-size: 18px; 
+		padding: 15px 0; 
+		color: rgba(0, 0, 0, 0.4);
+	}  
+	/*размер кнопки установки и ее надпись внутри*/
+	.tab_text button {
+		padding: 35px 40px; 
+		font-size: 18px;
+	}  
+	/*три большие кнопки*/
+
+	.tab_botton button {
+		width: 130px; 
+		height: 130px; 
+		font-size: 18px;
+	}  
+	/*картинка блока*/
+	.tab_img img {
+		width: 450px; 
+		height: auto;
+	} 
+
+	.subList_flex {
+		display: flex; 
+		flex-direction: row; 
+		width: 1700px; 
+		margin: 0 auto;
+	} 
+
+	.subList_img {
+		margin-right: 400px;
+	} 
+
+	.subList .inBox {
+		width: 600px; 
+		height: 400px;
+	} 
+
+	.box_text {
+		padding-top: 150px;
+	}
+	.subList_text p, .subList_text ul li h2 {
+		font-size: 20px;
+	}  
+
+	.once_price { 
+		margin: 0 auto;
+		margin: 120px 112px 0 112px;
+	} 
+
+	.price_block {
+		width: 1700px; 
+		margin: 0 auto;
+	}
+	
+}
